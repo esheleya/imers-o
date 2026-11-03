@@ -1,0 +1,61 @@
+IMERSÃO MÉTODO SER+I — APLICATIVO OFICIAL V5 | PAGAMENTO EXCLUSIVO SUMUP
+=============================================================================
+
+CHECKOUT CONFIGURADO
+--------------------
+SumUp (link público informado pelo organizador):
+https://pay.sumup.com/b2c/QI0DDZQA
+Valor informado pelo organizador: R$ 347,00
+Opções no checkout: Pix ou cartão, segundo as condições da conta SumUp.
+Não há integração com Mercado Pago nem Stone.
+
+IMPORTANTE: O APP AINDA PRECISA SER PUBLICADO.
+A prévia HTML NÃO registra inscrições. A ligação com a planilha funciona
+somente ao abrir a versão implantada pelo Google Apps Script.
+Não foi possível verificar externamente o valor no checkout SumUp nesta etapa;
+antes de divulgar, abra o link e confira R$ 347,00 e os meios de pagamento.
+
+PASSO A PASSO PARA PUBLICAR — GOOGLE APPS SCRIPT
+------------------------------------------------
+1) Abra https://sheets.new e crie uma planilha privada:
+   'Inscrições — Imersão Método SER+I — 2026'.
+2) Clique em Extensões > Apps Script.
+3) Substitua todo o código de Código.gs pelo conteúdo do arquivo Code.gs.
+4) Clique em + > HTML, crie o arquivo com o nome Index e cole
+   todo o conteúdo de Index.html (sem criar Index.html.html).
+5) Salve. Selecione a função prepararPlanilha e clique Executar.
+   Conceda permissões apenas à conta organizadora.
+6) Clique Implantar > Nova implantação > Aplicativo da web.
+   Executar como: você. Quem tem acesso: qualquer pessoa.
+7) Autorize e copie o LINK DO APLICATIVO terminado em /exec.
+8) Faça um teste sem pagamento, usando apenas seus próprios dados;
+   confira o registro na aba 'Inscrições' e o botão de pagamento SumUp.
+9) Abra o botão e confira na página oficial da SumUp valor, Pix e cartão;
+   não conclua uma transação apenas para o teste.
+
+SE VOCÊ JÁ POSSUI UMA IMPLANTAÇÃO
+--------------------------------
+Implantar > Gerenciar implantações > Editar (lápis) > Versão: Nova versão
+> Implantar. Teste novamente o endereço /exec já divulgado.
+
+FLUXO DO PARTICIPANTE
+---------------------
+1. Participante preenche o formulário e envia a pré-inscrição.
+2. O app registra os dados na Planilha Google como 'Pendente'.
+3. Surge SOMENTE o botão 'Pagar R$ 347,00 pela SumUp'.
+4. Participante paga por Pix ou cartão no site da SumUp.
+5. A organização verifica a transação aprovada diretamente na SumUp e
+   identifica o pagador; atualiza manualmente 'Situação do pagamento' para
+   Aprovado e 'Situação da vaga' para Confirmada.
+6. A confirmação da vaga é comunicada pela organização.
+
+CUIDADOS IMPORTANTES
+--------------------
+- O link de cobrança é fixo e não envia protocolo ou CPF à SumUp.
+  Confira o pagador, data, valor e identificador da transação.
+- Não considere print/comprovante como confirmação isolada: confira no painel.
+- Não disponibilize a planilha ao público: armazena CPF e dados pessoais.
+- Não envie o ZIP nem Index.html aos participantes: envie apenas o link /exec.
+- NÃO afirme pagamento ou vaga confirmada antes de conciliação.
+- Confira se a data, local e limite de vagas ainda estão corretos.
+- Evento mostrado: 07/12/2026, ASCAP, 17h às 22h, R$ 347,00.
